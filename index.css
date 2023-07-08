@@ -130,7 +130,7 @@ nav a {
 /* section style */
 
 main {
-    max-width: 1040px;
+    max-width: 1140px;
     margin: 0 auto;
     padding-top: 140px;
 }
@@ -298,3 +298,6 @@ main {
 .download-cv {
     text-align: center;
 }
+
+/* footer */
+
