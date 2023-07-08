@@ -21,7 +21,7 @@
 
 .nametitle{
     color: #181818;
-    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 0 3px #FF0000;
     font-size: 45px;
     font-weight: 800;
 }
@@ -60,9 +60,23 @@ nav a {
     color: white;
     border-radius: 5px;
     background: #FD6E0A;
+    text-align: center;
     border: none;
     font-weight: 700;
 }
+
+.btn-secondary {
+    padding: 15px 35px;
+    font-size: 20px;
+    color: #FD6E0A;
+    text-align: center;
+    border-radius: 5px;
+    background: #FFF8F3;
+    border: 1px solid #FD6E0A; 
+    font-weight: 700;
+}
+
+/* banner style */
 
 .banner {
     padding: 30px 30px 0px 150px;
@@ -71,16 +85,23 @@ nav a {
     align-items: center;
 }
 
+.banner-content {
+    max-width: 500px;
+}
+
 .banner-greetings {
     color: #474747;
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .banner-title {
     color: #181818;
     font-size: 85px;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -96,9 +117,125 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 30px;
 }
 
 
 .profilepic {
     width: 500px;
+}
+
+
+/* section style */
+
+main {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-paragraph {
+    display: flex;
+    width: 827px;
+    flex-direction: column;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-description {
+    color: #474747;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.do-section {
+    padding-top: 140px;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.section-paragraph2 {
+    display: flex;
+    width: 909px;
+    flex-direction: column;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 45px auto;
+}
+
+/* skills styles */
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-container img{
+    width: 44px;
+    height: 44px;
+}
+
+.skill {
+    width: 267px;
+    height: 377px; 
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color:#181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.skill-description {
+    display: flex;
+    width: 201px;
+    flex-direction: column;
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
